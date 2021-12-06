@@ -1,17 +1,22 @@
 ## ESP32-MFRC522
+Copy mfrc522 directory to esp root
 
 **Hardware settings**
 Using hardware SPI :
 
 SDA = select_pin = 4
+
 RST = reset_pin = 5
+
 MOSI = 23
+
 MISO = 19
+
 GND = any ground
+
 3.3V = any 3V3
 
 **Code example**
-
 ```python
 from machine import SPI
 from mfrc522 import SimpleMFRC522
