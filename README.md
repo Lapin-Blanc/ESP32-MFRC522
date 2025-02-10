@@ -4,17 +4,13 @@ Copy mfrc522 directory to esp root
 **Hardware settings**  
 Using hardware SPI(2) :
 
-SDA = select_pin = 5
-
-RST = reset_pin = 22
-
-MOSI = 23  
-
+SDA = select_pin = 5  
+SCK = clock = 18   
+MOSI = 23   
 MISO = 19  
-
 GND = any ground  
-
-3.3V = any 3V3
+RST = reset_pin = 22  
+3.3V = any 3V3  
 
 **Code example**
 ```python
