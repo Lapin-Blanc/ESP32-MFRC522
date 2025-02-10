@@ -5,10 +5,15 @@ Copy mfrc522 directory to esp root
 Using hardware SPI(2) :
 
 SDA = select_pin = 5
+
 RST = reset_pin = 22
+
 MOSI = 23  
+
 MISO = 19  
+
 GND = any ground  
+
 3.3V = any 3V3
 
 **Code example**
