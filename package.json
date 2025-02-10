@@ -3,7 +3,15 @@
     "version": "1.0.0",
     "license": "MIT",
     "dependencies": [],
+  "deps": [],
+  "description": "MicroPython driver for MFRC522 RFID reader with ESP32"
     "description": "Pilote MicroPython pour le lecteur RFID MFRC522",
     "author": "Lapin-Blanc",
     "repository": "https://github.com/Lapin-Blanc/ESP32-MFRC522"
+  "urls": [
+    ["mfrc522/__init__.py", "github:Lapin-Blanc/ESP32-MFRC522/mfrc522/__init__.py"],
+    ["mfrc522/mfrc.py", "github:Lapin-Blanc/ESP32-MFRC522/mfrc522/mfrc.py"],
+    ["mfrc522/simple_mfrc.py", "github:Lapin-Blanc/ESP32-MFRC522/mfrc522/simple_mfrc.py"]
+  ],
+  "version": "1.0.0",
 }
