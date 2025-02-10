@@ -4,8 +4,8 @@ Copy mfrc522 directory to esp root
 **Hardware settings**  
 Using hardware SPI(2) :
 
-SDA = select_pin = 4  
-RST = reset_pin = 5  
+SDA = select_pin = 5  
+RST = reset_pin = 22
 MOSI = 23  
 MISO = 19  
 GND = any ground  
@@ -18,8 +18,8 @@ from mfrc522 import SimpleMFRC522
 
 spi = SPI(2, baudrate=1000000, polarity=0, phase=0)
 
-select_pin = 4
-reset_pin = 5
+select_pin = 5
+reset_pin = 22
 reader = SimpleMFRC522(spi, select_pin, reset_pin)
 
 while True:
