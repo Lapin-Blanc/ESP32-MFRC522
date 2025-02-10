@@ -1,0 +1,9 @@
+{
+    "name": "mfrc522",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": [],
+    "description": "Pilote MicroPython pour le lecteur RFID MFRC522",
+    "author": "Lapin-Blanc",
+    "repository": "https://github.com/Lapin-Blanc/ESP32-MFRC522"
+}
